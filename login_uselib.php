@@ -11,9 +11,9 @@ error_reporting(E_ALL);
 //require_once("dbconnect.php");
  
 /// ส่วนการกำหนดค่านี้สามารถทำเป็นไฟล์ include แทนได้
-define('LINE_LOGIN_CHANNEL_ID','1572555483');
-define('LINE_LOGIN_CHANNEL_SECRET','92ed1cf59b8beab402b69e55ba018d58');
-define('LINE_LOGIN_CALLBACK_URL','http://localhost/test/line2/login_uselib_callback.php');
+define('LINE_LOGIN_CHANNEL_ID','....');
+define('LINE_LOGIN_CHANNEL_SECRET','....');
+define('LINE_LOGIN_CALLBACK_URL','....');
  
 $LineLogin = new LineLoginLib(
     LINE_LOGIN_CHANNEL_ID, LINE_LOGIN_CHANNEL_SECRET, LINE_LOGIN_CALLBACK_URL);
